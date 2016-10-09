@@ -1,0 +1,261 @@
+header{
+    background-image: url(../img/sky.jpg);
+    height: 800px;
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+h1, nav > h2{
+    display: none;
+}
+
+nav ul li{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.navbar a,
+.navbar a:hover,
+header > div > nav > a,
+header > div > nav > a:hover,
+header > div > nav > a:focus,
+header > div > nav > a:active{
+    text-decoration: none;
+    color: #fff;
+}
+
+header > div > nav > button{
+  color: #fff;
+}
+
+.author{
+    padding: 20px 0;
+}
+
+.author img{
+    width: 200px;
+    height: 200px;
+}
+
+.author-text{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.author-text p{
+    padding-top: 10px;
+}
+
+.home-slogan{
+    font-size: 62px;
+    padding-bottom: 36px;
+}
+
+.home-text{
+    margin-top: 150px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.home-sub-slogan p{
+    font-family: 'PT Sans', sans-serif;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.home-text .fa-rocket{
+    font-size: 142px;
+    color: #fff;
+    cursor: default;
+    padding-top: 20px;
+}
+
+#experience > h2{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 40px 0 10px 0;
+}
+
+#experience p{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.cards{
+    padding-top: 34px;
+    padding-bottom: 20px;
+}
+
+.card{
+    padding: 10px 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.card h4{
+    text-align: center;
+}
+
+.card:nth-child(odd) img{
+    margin-left: 8px;
+}
+
+.card:nth-child(even) img{
+    margin-left: -8px;
+}
+
+#portfolio .card img{
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#experience .card img{
+    width: 70px;
+    height: 70px;
+}
+
+#services{
+    text-align: center;
+    padding: 40px 0;
+}
+
+#services > h2{
+    font-family: 'Fjalla One', sans-serif;
+    padding: 60px 0 12px 0;    
+}
+
+#services i{
+    font-size: 120px;
+    padding: 30px 0;
+    color: #003d7c;
+}
+
+#portfolio h2{
+    font-family: 'Fjalla One', sans-serif;
+    padding: 80px 0 32px 0;
+    text-align: center;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.card:nth-child(odd) img{
+    margin-left: 0;
+}
+
+footer{
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+footer video{
+    position: absolute;
+    /*min-width: 100%;
+    min-height: 100%;*/
+    width: 100%;
+    height: auto;
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    /*background: url('/Content/final.png') no-repeat;*/
+    background-size: cover;
+    -moz-transition: 1s opacity;
+    -o-transition: 1s opacity;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+}
+
+.footer-info{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.footer-info h4{
+    font-size: 42px;
+    padding: 20px 0;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer-info p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+}
+
+.footer-info a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 4px;
+}
+
+.footer-info i{
+    font-size: 62px;
+    padding-bottom: 18px;
+}
+
+
+@media(max-width: 1200px){
+    .card .col-xl-2 img{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 991px){
+    .footer-info h4{
+        font-size: 26px;
+    }
+    
+    .footer-info i{
+        font-size: 42px;
+    }
+    
+    .footer-info p{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 767px){
+    .footer-info h4{
+        font-size: 24px;
+    }
+    
+    .footer-info i{
+        font-size: 32px;
+    }
+    
+    .footer-info p{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 479px){
+    .home-text{
+        margin-top: 65px;
+    }
+    
+    .home-slogan{
+        font-size: 28px;
+    }
+    
+    .footer-info{
+        padding-top: 10px;
+    }
+    
+    .home-text .fa-rocket{
+        font-size: 92px;
+    }
+}
+
+@media(max-width: 382px){
+    footer .footer-info{
+        margin-top: -15px;
+    }
+}
